@@ -7,16 +7,19 @@ $green: #30B08F;
 $tiffany: #4AB7BD;
 $yellow:#FEC171;
 $panGreen: #30B08F;
+$orgGrey: #263445;
+$white: #ffffff;
 
 // sidebar
-$menuText:#bfcbd9;
-$menuActiveText:#409EFF;
-$subMenuActiveText:#f4f4f5; // https://github.com/ElemeFE/element/issues/12951
+$menuText:#409EFF;
+$menuActiveText:#E65D6E;
+$subMenuActiveText:#E65D6E; // https://github.com/ElemeFE/element/issues/12951
 
-$menuBg:#304156;
-$menuHover:#263445;
+// 整个左侧菜单的样式
+$menuBg:#ffffff;
+$menuHover:#409EFF;
 
-$subMenuBg:#1f2d3d;
+$subMenuBg:#ffffff;
 $subMenuHover:#001528;
 
 $sideBarWidth: 205px;

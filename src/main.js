@@ -27,9 +27,19 @@ import App from './App'
 import store from './store'
 import router from './router/routers'
 
+// 引入全局字体
+import '@/assets/styles/font.css'
 import './assets/icons' // icon
 import './router/index' // permission control
 import 'echarts-gl'
+
+// 引入ElementUI组件库
+import ElementUI from 'element-ui'
+// 引入ElementUI全部样式
+import 'element-ui/lib/theme-chalk/index.css'
+
+// 应用ElementUI
+Vue.use(ElementUI)
 
 Vue.use(checkPer)
 Vue.use(VueHighlightJS)

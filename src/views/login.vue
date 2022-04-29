@@ -47,7 +47,7 @@ import Config from '@/settings'
 import { getCodeImg } from '@/api/login'
 import Cookies from 'js-cookie'
 import qs from 'qs'
-import Background from '@/assets/images/壁纸心海.jpg'
+import Background from '@/assets/images/壁纸1.jpg'
 export default {
   name: 'Login',
   data() {
